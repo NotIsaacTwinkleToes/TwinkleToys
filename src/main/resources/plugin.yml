@@ -1,0 +1,10 @@
+name: TwinkleToys
+version: '${project.version}'
+main: me.isaac.twinkletoys.TwinkleToys
+api-version: 1.18
+authors: [ IsaacsToes ]
+commands:
+  toys:
+    description: List of toys
+    usage: /toys
+    permission: twinkletoys.toys
